@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./normalize.css">
+      <link rel="stylesheet" href="./abdul1.css">
+      <title>DIVE Inquiry page</title>
+      <style type="text/css"> </style>
+    </head>
+    <body>
+      <div class="container">
+        <header class="header clearfix">
+        <a href="homework.html">
+          <img src="./images/logo.png" class="logo_image">
+        </a>
+        <nav>
+          <ul class="top_menu clearfix">
+            <li><a href="task1.html">Home</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Inquiry</a></li>
+          </ul>
+        </nav>
+      </header>
+      <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Company</a></li>
+            <li id=inquiry><a href="#">Inquiry</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="content">
+        <form action="index.html" method="post">
+          <table>
+            <tr class="row">
+              <th class="label"> Name </th>
+              <td>
+                <input type ="text" name="Name" class="textarea">
+              </td>
+            </tr>
+            <tr class="row">
+              <th class="label">Email </th>
+              <td>
+                <input type ="text" name="Email" class="textarea">
+              </td>
+            </tr>
+            <tr class="row">
+              <th>Gender</th>
+              <td id="gender">
+                <input type="radio" name="Gender" value="Male"> <strong>Male</strong>
+                <input type="radio"  name="Gender" value="Female"> <strong>Female</strong>
+              </td>
+            </tr>
+            <tr class="row">
+              <th class="label">Query</th>
+              <td>
+                <input type ="text" name="inquiry" class="textarea">
+              </td>
+            </tr class="row" >
+            <tr>
+              <th> </th>
+              <td id="button">
+                <input type="submit" value="submit" class="send">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </article>
+    </div>
+    <footer class="footer">
+      <P> Copyright © 2016 DIVE INC ALL RIGHTS RESERVED.
+      </P>
+    </footer>
+  </body>
+</html>
